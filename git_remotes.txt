@@ -1,0 +1,2 @@
+CRAWLER_URL=https://github.com/Machine4321/video-download-link-crawler.git
+PEXELS_URL=https://github.com/Machine4321/pexels-scraper.git

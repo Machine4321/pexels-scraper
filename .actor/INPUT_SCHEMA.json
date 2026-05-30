@@ -1,0 +1,36 @@
+{
+    "title": "Pexels Video & Image Bulk Scraper Input Schema",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "query": {
+            "title": "Search Query",
+            "type": "string",
+            "description": "The search keyword (e.g., 'nature', 'technology', 'fitness').",
+            "prefill": "waterfall"
+        },
+        "mediaType": {
+            "title": "Media Type",
+            "type": "string",
+            "description": "Choose whether to scrap videos, images, or both.",
+            "enum": ["videos", "images", "both"],
+            "enumTitles": ["Videos Only", "Images Only", "Both Videos & Images"],
+            "default": "both"
+        },
+        "maxResults": {
+            "title": "Max Results",
+            "type": "integer",
+            "description": "Maximum number of items to extract.",
+            "default": 50,
+            "minimum": 1
+        },
+        "apiKey": {
+            "title": "Pexels API Key (Optional)",
+            "type": "string",
+            "description": "Your custom Pexels API key. If left blank, the Actor will use a built-in fallback key. Get your free key at https://www.pexels.com/api/",
+            "editor": "textfield",
+            "isSecret": true
+        }
+    },
+    "required": ["query"]
+}

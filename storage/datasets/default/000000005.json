@@ -1,0 +1,59 @@
+{
+  "id": 27220475,
+  "type": "video",
+  "search_query": "nature",
+  "alt_text": "Video by Tom Fisk",
+  "url": "https://www.pexels.com/video/a-sunset-over-a-river-with-clouds-in-the-sky-27220475/",
+  "width": 3840,
+  "height": 2160,
+  "duration_seconds": 57,
+  "author_name": "Tom Fisk",
+  "author_url": "https://www.pexels.com/@tomfisk",
+  "author_id": 3052,
+  "preview_url": "https://images.pexels.com/videos/27220475/pictures/preview-0.jpg",
+  "download_url": "https://videos.pexels.com/video-files/27220475/12097119_3840_2160_30fps.mp4",
+  "alternative_resolutions": [
+    {
+      "quality": null,
+      "file_type": "video/mp4",
+      "width": 640,
+      "height": 360,
+      "link": "https://videos.pexels.com/video-files/27220475/12097114_640_360_30fps.mp4"
+    },
+    {
+      "quality": null,
+      "file_type": "video/mp4",
+      "width": 960,
+      "height": 540,
+      "link": "https://videos.pexels.com/video-files/27220475/12097115_960_540_30fps.mp4"
+    },
+    {
+      "quality": null,
+      "file_type": "video/mp4",
+      "width": 1280,
+      "height": 720,
+      "link": "https://videos.pexels.com/video-files/27220475/12097116_1280_720_30fps.mp4"
+    },
+    {
+      "quality": null,
+      "file_type": "video/mp4",
+      "width": 1920,
+      "height": 1080,
+      "link": "https://videos.pexels.com/video-files/27220475/12097117_1920_1080_30fps.mp4"
+    },
+    {
+      "quality": null,
+      "file_type": "video/mp4",
+      "width": 2560,
+      "height": 1440,
+      "link": "https://videos.pexels.com/video-files/27220475/12097118_2560_1440_30fps.mp4"
+    },
+    {
+      "quality": null,
+      "file_type": "video/mp4",
+      "width": 3840,
+      "height": 2160,
+      "link": "https://videos.pexels.com/video-files/27220475/12097119_3840_2160_30fps.mp4"
+    }
+  ]
+}

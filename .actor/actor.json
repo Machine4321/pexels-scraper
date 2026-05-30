@@ -1,0 +1,8 @@
+{
+    "actorSpecification": 1,
+    "name": "pexels-scraper",
+    "title": "Pexels Video & Image Bulk Scraper",
+    "description": "Searches and extracts high-quality stock videos and images in bulk from Pexels using the official fast, reliable API.",
+    "version": "0.1",
+    "dockerfile": "./.actor/Dockerfile"
+}

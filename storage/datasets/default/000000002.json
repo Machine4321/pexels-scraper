@@ -1,0 +1,25 @@
+{
+  "id": 17956020,
+  "type": "image",
+  "search_query": "nature",
+  "alt_text": "Explore a serene forest trail with lush greenery and rustic fencing.",
+  "url": "https://www.pexels.com/photo/a-person-walking-down-a-path-in-the-woods-17956020/",
+  "width": 4000,
+  "height": 6000,
+  "avg_color": "#514B3B",
+  "author_name": "One Blue Fire Studio",
+  "author_url": "https://www.pexels.com/@one-blue-fire-studio-309497860",
+  "author_id": 309497860,
+  "preview_url": "https://images.pexels.com/photos/17956020/pexels-photo-17956020.jpeg?auto=compress&cs=tinysrgb&h=350",
+  "download_url": "https://images.pexels.com/photos/17956020/pexels-photo-17956020.jpeg",
+  "alternative_resolutions": {
+    "original": "https://images.pexels.com/photos/17956020/pexels-photo-17956020.jpeg",
+    "large2x": "https://images.pexels.com/photos/17956020/pexels-photo-17956020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "large": "https://images.pexels.com/photos/17956020/pexels-photo-17956020.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "medium": "https://images.pexels.com/photos/17956020/pexels-photo-17956020.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "small": "https://images.pexels.com/photos/17956020/pexels-photo-17956020.jpeg?auto=compress&cs=tinysrgb&h=130",
+    "portrait": "https://images.pexels.com/photos/17956020/pexels-photo-17956020.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+    "landscape": "https://images.pexels.com/photos/17956020/pexels-photo-17956020.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+    "tiny": "https://images.pexels.com/photos/17956020/pexels-photo-17956020.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+  }
+}

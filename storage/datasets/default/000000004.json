@@ -1,0 +1,52 @@
+{
+  "id": 10395606,
+  "type": "video",
+  "search_query": "nature",
+  "alt_text": "Video by Dmitry Marchenkov",
+  "url": "https://www.pexels.com/video/sunlight-seen-through-leaves-10395606/",
+  "width": 1080,
+  "height": 1920,
+  "duration_seconds": 20,
+  "author_name": "Dmitry Marchenkov",
+  "author_url": "https://www.pexels.com/@electrotrack",
+  "author_id": 1811818,
+  "preview_url": "https://images.pexels.com/videos/10395606/pictures/preview-0.jpeg",
+  "download_url": "https://videos.pexels.com/video-files/10395606/10395606-hd_1080_1920_24fps.mp4",
+  "alternative_resolutions": [
+    {
+      "quality": "sd",
+      "file_type": "video/mp4",
+      "width": 360,
+      "height": 640,
+      "link": "https://videos.pexels.com/video-files/10395606/10395606-sd_360_640_24fps.mp4"
+    },
+    {
+      "quality": "sd",
+      "file_type": "video/mp4",
+      "width": 540,
+      "height": 960,
+      "link": "https://videos.pexels.com/video-files/10395606/10395606-sd_540_960_24fps.mp4"
+    },
+    {
+      "quality": "hd",
+      "file_type": "video/mp4",
+      "width": 720,
+      "height": 1280,
+      "link": "https://videos.pexels.com/video-files/10395606/10395606-hd_720_1280_24fps.mp4"
+    },
+    {
+      "quality": "sd",
+      "file_type": "video/mp4",
+      "width": 240,
+      "height": 426,
+      "link": "https://videos.pexels.com/video-files/10395606/10395606-sd_240_426_24fps.mp4"
+    },
+    {
+      "quality": "hd",
+      "file_type": "video/mp4",
+      "width": 1080,
+      "height": 1920,
+      "link": "https://videos.pexels.com/video-files/10395606/10395606-hd_1080_1920_24fps.mp4"
+    }
+  ]
+}
