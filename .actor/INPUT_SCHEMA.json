@@ -7,30 +7,59 @@
             "title": "Search Query",
             "type": "string",
             "description": "The search keyword (e.g., 'nature', 'technology', 'fitness').",
+            "editor": "textfield",
             "prefill": "waterfall"
         },
         "mediaType": {
             "title": "Media Type",
             "type": "string",
             "description": "Choose whether to scrape videos, images, or both.",
-            "enum": ["videos", "images", "both"],
-            "enumTitles": ["Videos Only", "Images Only", "Both Videos & Images"],
+            "enum": [
+                "videos",
+                "images",
+                "both"
+            ],
+            "enumTitles": [
+                "Videos Only",
+                "Images Only",
+                "Both Videos & Images"
+            ],
             "default": "both"
         },
         "orientation": {
             "title": "Orientation (Optional)",
             "type": "string",
             "description": "Filter media by kuvasuhde (e.g. Portrait for TikTok/Reels).",
-            "enum": ["any", "landscape", "portrait", "square"],
-            "enumTitles": ["Any Orientation", "Landscape (Horizontal)", "Portrait (Vertical / TikTok)", "Square"],
+            "enum": [
+                "any",
+                "landscape",
+                "portrait",
+                "square"
+            ],
+            "enumTitles": [
+                "Any Orientation",
+                "Landscape (Horizontal)",
+                "Portrait (Vertical / TikTok)",
+                "Square"
+            ],
             "default": "any"
         },
         "size": {
             "title": "Size (Optional)",
             "type": "string",
             "description": "Filter media by size/resolution.",
-            "enum": ["any", "large", "medium", "small"],
-            "enumTitles": ["Any Size", "Large (HD/4K)", "Medium", "Small"],
+            "enum": [
+                "any",
+                "large",
+                "medium",
+                "small"
+            ],
+            "enumTitles": [
+                "Any Size",
+                "Large (HD/4K)",
+                "Medium",
+                "Small"
+            ],
             "default": "any"
         },
         "color": {
@@ -43,7 +72,28 @@
             "title": "Search Locale (Optional)",
             "type": "string",
             "description": "The locale/language for the search query.",
-            "enum": ["en-US", "pt-BR", "es-ES", "ca-ES", "de-DE", "it-IT", "fr-FR", "sv-SE", "id-ID", "pl-PL", "ja-JP", "zh-TW", "zh-CN", "ko-KR", "th-TH", "nl-NL", "hu-HU", "vi-VN", "cs-CZ", "tr-TR"],
+            "enum": [
+                "en-US",
+                "pt-BR",
+                "es-ES",
+                "ca-ES",
+                "de-DE",
+                "it-IT",
+                "fr-FR",
+                "sv-SE",
+                "id-ID",
+                "pl-PL",
+                "ja-JP",
+                "zh-TW",
+                "zh-CN",
+                "ko-KR",
+                "th-TH",
+                "nl-NL",
+                "hu-HU",
+                "vi-VN",
+                "cs-CZ",
+                "tr-TR"
+            ],
             "default": "en-US"
         },
         "maxResults": {
@@ -61,5 +111,7 @@
             "isSecret": true
         }
     },
-    "required": ["query"]
+    "required": [
+        "query"
+    ]
 }
