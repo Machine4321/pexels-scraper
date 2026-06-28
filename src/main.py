@@ -25,6 +25,10 @@ async def fetch_media(
     headers: Dict[str, str],
     max_results: int,
     media_type: str,
+    orientation: str = "any",
+    size: str = "any",
+    color: Optional[str] = None,
+    locale: str = "en-US",
 ) -> List[Dict[str, Any]]:
     """
     Fetches media items (photos or videos) from Pexels API.
@@ -40,7 +44,16 @@ async def fetch_media(
             "per_page": per_page,
         }
         
-        logger.info(f"Fetching page {page} for {media_type} with query '{query}'...")
+        if orientation and orientation != "any":
+            params["orientation"] = orientation
+        if size and size != "any":
+            params["size"] = size
+        if color and media_type == "photo" and color.strip():
+            params["color"] = color.strip()
+        if locale:
+            params["locale"] = locale
+            
+        logger.info(f"Fetching page {page} for {media_type} with query '{query}' (params: {params})...")
         try:
             response = await client.get(url, headers=headers, params=params, timeout=20.0)
         except Exception as e:
@@ -174,6 +187,10 @@ async def main() -> None:
         media_type = actor_input.get("mediaType", "both")
         max_results = actor_input.get("maxResults", 50)
         api_key = actor_input.get("apiKey")
+        orientation = actor_input.get("orientation", "any")
+        size = actor_input.get("size", "any")
+        color = actor_input.get("color")
+        locale = actor_input.get("locale", "en-US")
 
         if not query:
             logger.error("Missing 'query' parameter in configuration.")
@@ -209,6 +226,10 @@ async def main() -> None:
                         headers=headers,
                         max_results=photo_limit,
                         media_type="photo",
+                        orientation=orientation,
+                        size=size,
+                        color=color,
+                        locale=locale,
                     )
                 )
 
@@ -223,6 +244,9 @@ async def main() -> None:
                         headers=headers,
                         max_results=video_limit,
                         media_type="video",
+                        orientation=orientation,
+                        size=size,
+                        locale=locale,
                     )
                 )
 

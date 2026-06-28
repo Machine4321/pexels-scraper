@@ -12,10 +12,39 @@
         "mediaType": {
             "title": "Media Type",
             "type": "string",
-            "description": "Choose whether to scrap videos, images, or both.",
+            "description": "Choose whether to scrape videos, images, or both.",
             "enum": ["videos", "images", "both"],
             "enumTitles": ["Videos Only", "Images Only", "Both Videos & Images"],
             "default": "both"
+        },
+        "orientation": {
+            "title": "Orientation (Optional)",
+            "type": "string",
+            "description": "Filter media by kuvasuhde (e.g. Portrait for TikTok/Reels).",
+            "enum": ["any", "landscape", "portrait", "square"],
+            "enumTitles": ["Any Orientation", "Landscape (Horizontal)", "Portrait (Vertical / TikTok)", "Square"],
+            "default": "any"
+        },
+        "size": {
+            "title": "Size (Optional)",
+            "type": "string",
+            "description": "Filter media by size/resolution.",
+            "enum": ["any", "large", "medium", "small"],
+            "enumTitles": ["Any Size", "Large (HD/4K)", "Medium", "Small"],
+            "default": "any"
+        },
+        "color": {
+            "title": "Color (Optional - Images Only)",
+            "type": "string",
+            "description": "Filter images by color. Enter a hex code (e.g., #ff0000) or color name (e.g., red, blue, green).",
+            "editor": "textfield"
+        },
+        "locale": {
+            "title": "Search Locale (Optional)",
+            "type": "string",
+            "description": "The locale/language for the search query.",
+            "enum": ["en-US", "pt-BR", "es-ES", "ca-ES", "de-DE", "it-IT", "fr-FR", "sv-SE", "id-ID", "pl-PL", "ja-JP", "zh-TW", "zh-CN", "ko-KR", "th-TH", "nl-NL", "hu-HU", "vi-VN", "cs-CZ", "tr-TR"],
+            "default": "en-US"
         },
         "maxResults": {
             "title": "Max Results",

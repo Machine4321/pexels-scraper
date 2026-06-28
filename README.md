@@ -20,12 +20,23 @@ Unlike standard scrapers that try to scrape Pexels' web pages directly—which l
 This Actor is highly customizable. In the Apify Console, you can configure:
 
 *   `query` (String, **Required**): The keyword you want to search (e.g., `nature`, `cyberpunk`, `meditation`, `office`).
-*   `mediaType` (Enum): Filter search results by:
-    *   `Both Videos & Images` (Default)
-    *   `Videos Only`
-    *   `Images Only`
+*   `mediaType` (Enum): Filter search results by `Both Videos & Images`, `Videos Only`, or `Images Only`.
+*   `orientation` (Enum, **Optional**): Filter by `Any Orientation`, `Landscape` (horizontal), `Portrait` (vertical - perfect for TikTok, YouTube Shorts, and Instagram Reels!), or `Square`.
+*   `size` (Enum, **Optional**): Filter by `Any Size`, `Large` (HD & 4K), `Medium`, or `Small`.
+*   `color` (String, **Optional**): Filter images by dominant color. You can enter a color name (e.g., `red`, `blue`, `green`) or a hex code (e.g., `#ff0000`). *Note: Pexels API only supports color filtering for images.*
+*   `locale` (Enum, **Optional**): Define the search language/locale (e.g., `en-US`, `es-ES`, `ja-JP`).
 *   `maxResults` (Integer): The maximum number of results you want to retrieve.
 *   `apiKey` (String, **Optional**): Your custom Pexels API key. If left blank, the Actor uses a default fallback key.
+
+---
+
+## 📈 Trending & High-Demand Search Queries
+To help you get the most out of your bulk downloads, here are some of the most popular stock search terms for content creation:
+*   **AI & Technology**: `artificial intelligence`, `cyberpunk`, `coding`, `neon city`, `metaverse`, `robotics`.
+*   **Faceless Channel Themes**: `lofi aesthetic`, `meditation`, `rain on window`, `relaxing nature`, `asmr`, `minimalist workspace`.
+*   **B2B & Office**: `business meeting`, `remote work`, `teamwork`, `office presentation`, `crypto trading`.
+*   **Lifestyle & Fitness**: `gym workout`, `yoga morning`, `healthy eating`, `running track`, `urban lifestyle`.
+*   **Transitions & Drone**: `city timelapse`, `drone landscape`, `slow motion crowd`, `cinematic sunset`.
 
 ---
 
